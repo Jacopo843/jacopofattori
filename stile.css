@@ -1,0 +1,178 @@
+@font-face{
+  font-family: h1;
+  src: url(Evil-Empire.otf);
+}
+
+body{
+    background-color: #ffffff;
+}
+
+h1{
+  font-family: h1;
+}
+
+h4{
+  font-family: h1;
+}
+
+li{
+  margin-top: 2%;
+}
+
+aside{
+  margin-top: 2%;
+}
+
+.fontTitoli{
+    font-family: h1;
+}
+
+.fontNomeSito{
+  font-family: h1;
+}
+
+.colorText{
+    color: #ffffff;
+}
+
+
+  .textLeft{
+    text-align: left;
+  }
+
+  .textRight{
+    text-align: right;
+  }
+  
+.spazio{
+  padding-top: 4%;
+}
+
+.spazioFooter{
+  padding-top: 20%;
+}
+
+  .coloreZone{
+    background-color: #0f12da;
+}
+
+  .social{
+    width: 60%;
+    height: auto;
+}
+        /* Navbar */
+        .navbar {
+            background: linear-gradient(90deg, #0f12da, #4a90e2);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .navbar-brand h1, .nav-link {
+            color: #fff !important;
+            transition: color 0.3s;
+        }
+        .nav-link:hover {
+            color: #ffdd57 !important;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('Img/hero-bg.jpg') no-repeat center center/cover;
+            height: 100vh;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .hero p {
+            font-size: 1.5rem;
+            margin-top: 20px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+        }
+
+        /* Section Styles */
+        .section-title {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: #333;
+        }
+        .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            border-radius: 15px 15px 0 0;
+        }
+
+        /* Footer */
+        footer {
+            background: linear-gradient(90deg, #4a90e2, #0f12da);
+            color: #fff;
+            padding: 40px 0;
+        }
+        .social {
+            width: 40px;
+            height: 40px;
+            margin: 0 10px;
+            transition: transform 0.3s;
+        }
+        .social:hover {
+            transform: scale(1.2);
+        }
+
+        /* Evidenzia le card */
+        .card, .card-evident {
+          box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18), 0 1.5px 4px rgba(0,0,0,0.10);
+          border: 2px solid #0b0b0c;
+          background: #f8faff;
+        } 
+.card-evident {
+    border-color: #0b0b0c;
+    background: #f8faff;
+}
+
+/* Card materie stile custom */
+.card-scientifica {
+  border: 2px solid #0b0b0c;
+  background: #f8faff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18), 0 1.5px 4px rgba(0,0,0,0.10);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card-scientifica:hover {
+  transform: scale(1.04);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22), 0 2px 8px rgba(0,0,0,0.13);
+}
+.card-scientifica .card-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.elenco-titolo {
+  font-weight: 600;
+  display: block;
+  margin-top: 10px;
+}
+.elenco-professori {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.elenco-professori li {
+  font-size: 1rem;
+  margin-left: 0;
+}
+
+.nav-hover:hover {
+    background-color: #133d85;
+    color: #fff !important;
+    border-radius: 5px;
+    transition: background 0.2s, color 0.2s;
+}
